@@ -18,6 +18,11 @@
     ],
     "external_dependencies": {
         "bin": ['/usr/bin/java'],
+        "_packages": {
+            "bin": {
+                "/usr/bin/java": "openjdk-8-jre",
+            },
+        },
     },
     "data": [
         "security/ir.model.access.csv",
